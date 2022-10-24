@@ -1,0 +1,18 @@
+.footer {
+    margin-top: 10px;
+}
+
+.footer p {
+    color: #777;
+}
+
+.footer p span {
+    font-weight: bold;
+    color: tomato;
+}
+
+@media (max-width:570px) {
+    p {
+        font-size: 12px;
+    }
+}
