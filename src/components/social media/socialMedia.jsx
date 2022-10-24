@@ -8,7 +8,7 @@ const SocialMedia = ()=>{
     const [social,setSocial] = useState([]);
 
     useEffect(()=>{
-        axios.get('http://myjson.dit.upm.es/api/bins/4qwu').then(res=>{
+        axios.get('https://myjson.dit.upm.es/api/bins/4qwu').then(res=>{
             setSocial(res.data.social)
         })
     },[])
